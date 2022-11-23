@@ -1,0 +1,61 @@
+{
+    "name": "entsoe-js",
+    "version": "1.0.0",
+    "description": "Unofficial NodeJS library for the ENTSO-E Transparency Platform API",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "require": "./dist/index.js",
+            "import": "./dist/index.mjs",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "homepage": "https://github.com/robinvw1/entsoe-js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/robinvw1/entsoe-js.git"
+    },
+    "keywords": [
+        "entsoe"
+    ],
+    "author": {
+        "name": "Robin van Wijngaarden",
+        "email": "info@robinvanwijngaarden.nl",
+        "url": "https://robinvanwijngaarden.com"
+    },
+    "license": "ISC",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "test": "vitest",
+        "coverage": "vitest run --coverage"
+    },
+    "dependencies": {
+        "luxon": "^3.1.0",
+        "ofetch": "^1.0.0",
+        "xml2js": "^0.4.23",
+        "zod": "^3.19.1"
+    },
+    "devDependencies": {
+        "@tsconfig/node14": "^1.0.3",
+        "@types/luxon": "^3.1.0",
+        "@types/xml2js": "^0.4.11",
+        "@typescript-eslint/eslint-plugin": "^5.43.0",
+        "@typescript-eslint/parser": "^5.43.0",
+        "@vitest/coverage-c8": "^0.25.3",
+        "eslint": "^8.27.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "msw": "^0.49.0",
+        "prettier": "2.7.1",
+        "tsup": "^6.5.0",
+        "typescript": "^4.9.3",
+        "vitest": "^0.25.2"
+    }
+}
