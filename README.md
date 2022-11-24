@@ -9,7 +9,6 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Github Actions][github-actions-src]][github-actions-href]
 [![Codecov][codecov-src]][codecov-href]
-[![bundle][bundle-src]][bundle-href]
 
 ---
 
@@ -66,5 +65,3 @@ Thanks to Robin Hansson for his work and inspiration: https://github.com/rabinag
 [github-actions-href]: https://github.com/robinvw1/entsoe-js/actions?query=workflow%3Aci
 [codecov-src]: https://img.shields.io/codecov/c/gh/robinvw1/entsoe-js/main?style=flat-square
 [codecov-href]: https://codecov.io/gh/robinvw1/entsoe-js
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/entsoe-js?style=flat-square
-[bundle-href]: https://bundlephobia.com/result?p=entsoe-js
